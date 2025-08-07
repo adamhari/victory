@@ -2,4 +2,4 @@
 "victory-native": patch
 ---
 
-fix native voronoi container prop forwarding
+fix native container prop forwarding
