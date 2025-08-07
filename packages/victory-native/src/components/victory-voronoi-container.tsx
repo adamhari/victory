@@ -21,7 +21,7 @@ const DEFAULT_VORONOI_PADDING = 5;
 export const VictoryVoronoiContainer = (
   initialProps: VictoryVoronoiContainerNativeProps,
 ) => {
-  const {children, props} = useVictoryVoronoiContainer({
+  const { props, children } = useVictoryVoronoiContainer({
     ...initialProps,
     activateData: initialProps.activateData ?? true,
     activateLabels: initialProps.activateLabels ?? true,
